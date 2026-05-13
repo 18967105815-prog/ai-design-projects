@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test / coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / package output
+build/
+dist/
+*.egg-info/
+
+# Local editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local generated case files
+outputs/
+output/
+tmp/
+temp/
+*.log
+
+# Local secrets / env
+.env
+.env.*
+!.env.example
